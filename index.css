@@ -1,0 +1,60 @@
+.container .tambahBarang {
+    display: block;
+    text-decoration: none;
+    color: rgb(118, 2, 160);
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #efe1f6;
+}
+
+table th {
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    background-color: #b016ec;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+}
+
+table td {
+    padding: 10px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #efe1f6;
+}
+
+img {
+    width: 60px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.btn-delete {
+    border: 1px solid #db5d59;
+    background: #db5d59 url("gambar/hapus.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btn-ubah {
+    border: 1px solid #00b3a8;
+    background: #00b3a8 url("gambar/ubah.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
