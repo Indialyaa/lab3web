@@ -10,7 +10,7 @@
 
 
 ### _Code :_
-
+```
 CREATE TABLE data_barang (
  id_barang int(10) auto_increment Primary Key,
  kategori varchar(30),
@@ -20,6 +20,7 @@ CREATE TABLE data_barang (
  harga_jual decimal(10,0),
  stok int(4)
 );
+```
 
 ### _Output :_
 
@@ -30,7 +31,7 @@ CREATE TABLE data_barang (
 ## **DATA BARANG**
 
 ### _Code :_
-
+```
 <?php
 include("koneksi.php");
 // query untuk menampilkan data
@@ -88,7 +89,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 
 </html>
-
+```
 ### _Output :_
 
 <img src="Gambar/ss/db.png" style="border: 2px solid #333; border-radius: 5px; box-shadow: 2px 2px 4px #00000040">
@@ -98,7 +99,7 @@ $result = mysqli_query($conn, $sql);
 ## **TAMBAH BARANG**
 
 ### _Code :_
-
+```
 <?php
 error_reporting(E_ALL);
 include_once 'koneksi.php';
@@ -182,12 +183,18 @@ stok, gambar) ';
 </body>
 
 </html>
+```
 
 ### _Output :_
 
 <img src="Gambar/ss/tb.jpeg" style="border: 2px solid #333; border-radius: 5px; box-shadow: 2px 2px 4px #00000040">
 
 </br></br>
+
+### _penjelasan :_
+```
+pada bagian tambah barang ini anda harus memasukkan barang baru yang akan ditampilkan pada data barang 
+```
 
 ## **UBAH BARANG**
 
@@ -305,5 +312,7 @@ if (isset($_POST['submit']))
 <img src="Gambar/ss/ub.jpeg" style="border: 2px solid #333; border-radius: 5px; box-shadow: 2px 2px 4px #00000040">
 
 </br></br>
-
+### _penjelasan :_
+```
+pada bagian ubah barang ini anda harus mengubah data sebelumnya dan menggantikan dengan data baru (update data)
 
