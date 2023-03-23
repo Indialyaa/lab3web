@@ -195,6 +195,30 @@ stok, gambar) ';
 ```
 pada bagian tambah barang ini anda harus memasukkan barang baru yang akan ditampilkan pada data barang 
 ```
+## **HAPUS**
+
+
+### _Code :_
+
+```php
+<?php
+include_once 'koneksi.php';
+$id = $_GET['id'];
+$sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
+$result = mysqli_query($conn, $sql);
+header('location: index.php');
+?>
+```
+
+### _Output :_
+
+<img src="Gambar/ss/db.png" style="border: 2px solid #333; border-radius: 5px; box-shadow: 2px 2px 4px #00000040">
+
+</br></br>
+### _penjelasan :_
+```
+jika pada bagian sebelumnya tambah barang otomatis jumlah etalase pada data barang akan bertambah, sedangkan pada bagian ini yaitu hapus data, maka data akan berkurang sesuai apa yang dihapus, sebagai contoh jika dibagian sebelumnya terdapat 4 etalase, maka pada bagian ini kita akan menghapus hp infinix android dan sisa etalase menjadi 3
+```
 
 ## **UBAH BARANG**
 
