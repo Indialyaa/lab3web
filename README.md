@@ -217,7 +217,10 @@ header('location: index.php');
 </br></br>
 ### _penjelasan :_
 ```
-jika pada bagian sebelumnya tambah barang otomatis jumlah etalase pada data barang akan bertambah, sedangkan pada bagian ini yaitu hapus data, maka data akan berkurang sesuai apa yang dihapus, sebagai contoh jika dibagian sebelumnya terdapat 4 etalase, maka pada bagian ini kita akan menghapus hp infinix android dan sisa etalase menjadi 3
+jika pada bagian sebelumnya tambah barang otomatis jumlah etalase pada data barang akan bertambah, 
+sedangkan pada bagian ini yaitu hapus data, maka data akan berkurang sesuai apa yang dihapus, 
+sebagai contoh jika dibagian sebelumnya terdapat 4 etalase, 
+maka pada bagian ini kita akan menghapus hp infinix android dan sisa etalase menjadi 3
 ```
 
 ## **UBAH BARANG**
